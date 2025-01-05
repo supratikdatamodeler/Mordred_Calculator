@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 from rdkit import Chem
 from mordred import Calculator, descriptors
-from rdkit.Chem import Draw
 import tempfile
 
 # Function to calculate descriptors
