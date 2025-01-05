@@ -3,11 +3,9 @@ channels:
   - conda-forge
 dependencies:
   - python=3.9
-  - rdkit
   - pandas
   - streamlit
   - mordred
   - pip
   - pip:
-      - streamlit
-
+      - rdkit-pypi
