@@ -45,3 +45,43 @@ To run this application locally, follow the steps below:
    conda env create -f environment.yml
    conda activate mordred_calculator
 
+3. **Run the Streamlit app**: Using the following command:
+   ```bash
+   streamlit run streamlit_mordred_sdf_pdb_smiles.py
+
+4. **Access the app**:
+Open your browser and navigate to: [https://mordred-calculator.streamlit.app/]
+
+
+
+**Dependencies**
+The following major dependencies are required for this application:
+
+Python 3.9
+RDKit
+Pandas
+Mordred
+Streamlit
+NumPy
+Please see the environment.yml or requirements.txt file for the full list of dependencies.
+
+**Usage**
+1. Upload an SDF or PDB file containing the chemical structures.
+2. Click on the "Upload" button to process the file.
+3. View the calculated descriptors in the app interface.
+4. Download the results as a CSV file for further analysis.
+
+**Legal Disclaimer**
+This tool is intended for educational and research purposes only. The authors and contributors are not liable for any use of this tool beyond its intended scope. By using this application, you agree to cite the original Mordred publication and acknowledge the application in your work.
+
+The application includes the Mordred library under its respective license. Refer to the Mordred GitHub repository for licensing details.
+
+**Acknowledgments**
+Mordred Library: Special thanks to Moriwaki et al. (2018) for developing the Mordred descriptor calculator.
+Streamlit: For enabling the creation of this interactive web app.
+
+**License**
+This repository is distributed under the MIT License. See the LICENSE file for more information.
+
+
+
