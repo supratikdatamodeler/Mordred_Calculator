@@ -67,8 +67,9 @@ uploaded_file = st.file_uploader("Upload a file", type=["sdf", "pdb"])
 if uploaded_file:
     file_format = uploaded_file.name.split(".")[-1].lower()
 
-    st.info("Processing file...")
-    output_df = calculate_descriptors(uploaded_file, file_format)
+    # Display "Processing file..." while calculations are ongoing
+    with st.spinner("Processing file..."):
+        output_df = calculate_descriptors(uploaded_file, file_format)
 
     if not output_df.empty:
         st.success("Descriptors calculated successfully!")
