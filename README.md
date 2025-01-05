@@ -40,15 +40,7 @@ To run this application locally, follow the steps below:
    git clone https://github.com/supratikdatamodeler/Mordred_Calculator.git
    cd Mordred_Calculator
 
-2. **Set up the environment**: Install the required dependencies using Conda:
-  ```bash
-  conda env create -f environment.yml
-  conda activate mordred_calculator
-
-3. **Run the Streamlit app**:
-Using following:
-   ```bash
-
-   streamlit run streamlit_mordred_sdf_pdb_smiles.py
-
+2. Set up the environment: Install the required dependencies using Conda:
+   conda env create -f environment.yml
+   conda activate mordred_calculator
 
