@@ -3,4 +3,3 @@ ipython
 numpy
 streamlit
 mordred==1.2.0
-rdkit-pypi
