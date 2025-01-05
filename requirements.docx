@@ -1,4 +1,4 @@
 pandas
 streamlit
-mordred
+mordred==1.2.0
 rdkit-pypi
