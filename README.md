@@ -46,7 +46,7 @@ To run this application locally, follow the steps below:
   conda activate mordred_calculator
 
 3. **Run the Streamlit app:**
-   ```bash
+  ```bash
   streamlit run streamlit_mordred_sdf_pdb_smiles.py
 
 **Access the Streamlit app:**
