@@ -8,3 +8,7 @@ dependencies:
   - streamlit
   - mordred
   - numpy
+  - libxrender
+  - pip
+  - pip:
+      - streamlit_ketcher
