@@ -41,6 +41,7 @@ To run this application locally, follow the steps below:
    cd Mordred_Calculator
 
 2. Set up the environment: Install the required dependencies using Conda:
+   ```bash
    conda env create -f environment.yml
    conda activate mordred_calculator
 
