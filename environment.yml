@@ -6,6 +6,8 @@ dependencies:
   - pandas
   - streamlit
   - mordred
+  - numpy  # Explicitly include numpy
   - pip
   - pip:
       - rdkit-pypi
+
