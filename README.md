@@ -48,18 +48,3 @@ To run this application locally, follow the steps below:
 3. **Run the Streamlit app**: Using following:
    ```bash
    streamlit run streamlit_mordred_sdf_pdb_smiles.py
-
-
-
-
-**Dependencies**
-The following major dependencies are required for this application:
-
-Python 3.9
-RDKit
-Pandas
-Mordred
-Streamlit
-NumPy
-Please see the environment.yml or requirements.txt file for the full list of dependencies.
-
