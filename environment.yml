@@ -2,12 +2,9 @@ name: mordred_calculator
 channels:
   - conda-forge
 dependencies:
-  - python=3.9
+  - python=3.10
+  - rdkit
   - pandas
   - streamlit
   - mordred
-  - numpy  # Explicitly include numpy
-  - pip
-  - pip:
-      - rdkit-pypi
-
+  - numpy
