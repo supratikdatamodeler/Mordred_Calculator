@@ -18,7 +18,7 @@ Mordred: A Molecular Descriptor Calculator.
 ### Citation for This Application
 
 If you use this application in your research or teaching, kindly include a citation to the app:  
-[https://mordred-calculator.streamlit.app/](https://mordred-calculator.streamlit.app/)
+[https://mordred-descriptors-calculator.streamlit.app/]
 
 ---
 
@@ -50,7 +50,7 @@ To run this application locally, follow the steps below:
    streamlit run streamlit_mordred_sdf_pdb.py
 
 4. **Access the app**:
-Open your browser and navigate to: [https://mordred-calculator.streamlit.app/]
+Open your browser and navigate to: [https://mordred-descriptors-calculator.streamlit.app/]
 
 
 
