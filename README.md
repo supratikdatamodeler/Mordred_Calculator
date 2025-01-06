@@ -47,7 +47,7 @@ To run this application locally, follow the steps below:
 
 3. **Run the Streamlit app**: Using the following command:
    ```bash
-   streamlit run streamlit_mordred_sdf_pdb_smiles.py
+   streamlit run streamlit_mordred_sdf_pdb.py
 
 4. **Access the app**:
 Open your browser and navigate to: [https://mordred-calculator.streamlit.app/]
